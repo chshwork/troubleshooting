@@ -1,3 +1,5 @@
+### Failed to configure embedded browser
+- needs sudo
 ### Burp can't connect to localhost app
 - Description: Can't proxy localhost app, error page "Failed to connect to `localhost:<port>`"
 - Try: Without burp, app can be accessed using localhost **but not 127.0.0.1**
