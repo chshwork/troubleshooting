@@ -12,5 +12,5 @@
 - Description: Bidirectional clipboard stops working, guest -> host broken
 - Solution: Kill the guest clipboard `VBoxClient --clipboard` and run it again
 ### Resizing window causes guest to freeze
-- Description: Linux guest freezes/blackscreens when trying to auto-resize for a wide screen
+- Description: Linux guest freezes/blackscreens when trying to auto-resize on a wide screen
 - Solution: Increase the Video Memory in Settings > Display > Screen
