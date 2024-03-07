@@ -1,4 +1,4 @@
-### Shrink dynamically allocated disk
+### Dynamically allocated disk getting too large
 1. In a temporary or test VM, install zerofree (AUR)
 2. Mount target disk as read-only (`mount -r`) in temp vm
    * Add disk using virtualbox > settings > storage
@@ -11,3 +11,6 @@
 ### Shared clipboard stops working 
 - Description: Bidirectional clipboard stops working, guest -> host broken
 - Solution: Kill the guest clipboard `VBoxClient --clipboard` and run it again
+### Resizing window causes guest to freeze
+- Description: Linux guest freezes/blackscreens when trying to auto-resize for a wide screen
+- Solution: Increase the Video Memory in Settings > Display > Screen
